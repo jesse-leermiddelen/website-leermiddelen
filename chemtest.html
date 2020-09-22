@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Chemicaliën MSDS</title>
 </head>
 <body>
-    <h2>Plak hier de artikelcodes van de chemicaliën waarvan u een msds-fiche wenst</h2>
-    <input type="textarea">
+    <h2>Plak hier de artikelcodes van de chemicaliën waarvan u een msds-fiche wenst (één code per lijn)</h2>
+    <form>
+    <textarea id="codes" cols="15" rows="10" name="codes"></textarea><br />
+    <input type="submit" value="Ophalen">
+    </form>
+    <script src="chemtest.js"></script>
 </body>
 </html>
