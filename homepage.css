@@ -18,7 +18,6 @@
 }
 
 .vBtn {
-  width: 33%;
   height: 100px;
   color: white;
   font-weight: bolder;
@@ -56,6 +55,16 @@
 .vVerz:hover {
   background-color: #ffffff;
   color: #f0ad4e;
+  box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+.vElek {
+  background-color: #1cb636;
+  border: 5px solid #1cb636;
+}
+.vElek:hover {
+  background-color: #ffffff;
+  color: #1cb636;
   box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.4);
 }
 
