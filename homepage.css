@@ -59,12 +59,12 @@
 }
 
 .vElek {
-  background-color: #1cb636;
-  border: 5px solid #1cb636;
+  background-color: #0c8fc6;
+  border: 5px solid #0c8fc6;
 }
 .vElek:hover {
   background-color: #ffffff;
-  color: #1cb636;
+  color: #0c8fc6;
   box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.4);
 }
 
