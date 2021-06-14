@@ -29,12 +29,12 @@
 }
 
 .vLeer {
-  background-color: #0a4577;
-  border: 5px solid #0a4577;
+  background-color: #113063;
+  border: 5px solid #113063;
 }
 .vLeer:hover {
   background-color: #ffffff;
-  color: #0a4577;
+  color: #113063;
   box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.4);
 }
 
